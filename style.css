@@ -6,6 +6,43 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
+header {
+  background-color: #562eff;
+  width: 100%;
+  height: 94px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navs {
+  width: 870px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+}
+.icon img {
+  width: 40.42px;
+  height: 51px;
+  margin-right: 16px;
+}
+.navs a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 18px;
+}
+.links {
+  display: flex;
+  align-items: center;
+}
 main {
   background-color: #f3f1ff;
 }
